@@ -9,12 +9,14 @@ local Tab = Window:NewTab("Ponn")
 -- Подсекция
 local Section = Tab:NewSection("optimization")
 
+game:GetService("RunService"):Set3dRenderingEnabled(false)
+
 -- Переключатель
 Section:NewToggle("3dRender", "3dRender", function(state)
     if state then
-        game:GetService("RunService"):Set3dRenderingEnabled(false)
-    else
         game:GetService("RunService"):Set3dRenderingEnabled(true)
+    else
+        game:GetService("RunService"):Set3dRenderingEnabled(false)
     end
 end)
 
