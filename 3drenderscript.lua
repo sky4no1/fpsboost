@@ -1,7 +1,7 @@
 -- Ссылка на Библиотеку
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 -- Создать окно UI
-local Window = Library.CreateLib("SKY4NO TOP", "LightTheme")
+local Window = Library.CreateLib("SKY4NO TOP", "DarkTheme")
 
 -- Секция
 local Tab = Window:NewTab("Ponn")
