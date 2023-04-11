@@ -1,5 +1,5 @@
 repeat wait() until game:IsLoaded() 
-wait(20)
+wait(40)
 
 -- Ссылка на Библиотеку
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
